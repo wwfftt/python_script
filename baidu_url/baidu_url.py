@@ -58,7 +58,7 @@ def spider(url):
 
 def main(keyword):
 	queue = Queue.Queue()
-	for i in range(0,20,10):
+	for i in range(0,20,10):        #修改页数 10为1页
 		queue.put('https://www.baidu.com/s?wd=%s&pn=%s'%(keyword,str(i)))
 
 	threads = []
