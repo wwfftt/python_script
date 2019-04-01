@@ -10,6 +10,7 @@ import re
 
 
 '''
+百度url采集脚本
 url = https://www.baidu.com/s?wd=python&pn=10
 wd(keyword)   pn(page_num)
 '''
